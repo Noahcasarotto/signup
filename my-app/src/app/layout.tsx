@@ -21,7 +21,7 @@ export default function RootLayout({
   );
 }
 
-//Me trying to incorporate variable management
+//Me trying to incorporate variable
 // import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 // import "./globals.css";
