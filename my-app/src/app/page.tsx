@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import Link from "next/link"; // Import Link from Next.js
+import TypingEffect from "@/components/TypingEffect";
 
 export default function Page() {
 
@@ -109,6 +110,10 @@ export default function Page() {
                   </p>
                 </div>
               )}
+
+            <div className="mt-12">
+              <TypingEffect />
+            </div>
             </div>
           </div>
         </div>
